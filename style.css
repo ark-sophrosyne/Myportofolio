@@ -97,3 +97,64 @@ a:hover{
     margin-bottom: 300px;
     align-items: center;
 }
+/* 📱 Responsive adjustments */
+
+/* Tablet and smaller (≤768px) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-skills {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .icon {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Phone (≤480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .font {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .button {
+    width: 100%; /* make buttons full width */
+    text-align: center;
+  }
+
+  .img-about {
+    width: 80%;  /* shrink images */
+    height: auto;
+  }
+
+  .list {
+    gap: 10px;
+  }
+}
+
